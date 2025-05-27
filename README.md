@@ -24,7 +24,7 @@ VITE_API_KEY=your_api_key_here
 
 Access it in your code with:
 ```bash
-const apiKey = import.meta.env.VITE_API_KEY;
+const API_KEY = import.meta.env.VITE_API_KEY;
 ```
 
 ## Usage
