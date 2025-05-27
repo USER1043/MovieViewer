@@ -70,4 +70,4 @@ The app will open in your browser at http://localhost:3000.
 Feel free to contribute or ask questions!
 
 Author: Prajan Karthik  
-Date: 2025-05-25
+Date: 2025-05-27
