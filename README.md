@@ -62,6 +62,11 @@ The app will open in your browser at http://localhost:3000.
 - Basic state management in React
 - Handling async operations in React
 
+## Acknowledgments
+
+This project is based on the React and Vite tutorial by [Tech With Tim](https://youtu.be/G6D9cBaLViA?si=B4mwQg16VJdr5Hu0).  
+Big thanks to Tech With Tim for the clear and helpful content that guided me through building this app.
+
 ## Notes
 
 - This app uses the public MovieDB API, no authentication required.
