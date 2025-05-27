@@ -1,0 +1,21 @@
+import "./css/App.css";
+import { Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import Favourites from "./pages/Favourites";
+import { MovieProvider } from "./contexts/MovieContexts";
+import NavBar from "./components/NavBar";
+function App() {
+  return (
+    <MovieProvider>
+      <NavBar />
+      <main className="main-content">
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/favourites" element={<Favourites />}></Route>
+        </Routes>
+      </main>
+    </MovieProvider>
+  );
+}
+
+export default App;
